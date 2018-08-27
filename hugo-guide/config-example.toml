@@ -1,0 +1,41 @@
+baseURL = "https://just4tuts.github.io/"
+theme = "hugo-goa"
+author = "M.G"
+title = "Another Hugo Blog"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+
+[params]
+author = "M.G"
+intro = "But nobody is not nothing"
+description = "Description"
+authorimage = "mg.jpg"
+dateformat = "Jan 2, 2006"
+
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+[params.social]
+github = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+stackoverflow = "<username>"
+email = "you@example.com"
+
+[params.extra]
+copyright = "copyright @ Rajesh Shenoy"
+poweredby = true
+highlightjs = true
+
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/post/"
