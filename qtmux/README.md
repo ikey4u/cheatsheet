@@ -49,4 +49,6 @@ sudo make install
 
 cd -
 rm -fr /tmp/tmux-2.7
+
+exec $SHELL
 ```
