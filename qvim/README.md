@@ -18,7 +18,7 @@
 - Configuration
 
     ```
-    svn export https://github.com/ikey4u/quick-guide/trunk/quick-vim-setup/ ~/.vim/
+    svn export github.com/ikey4u/q/trunk/qvim/ ~/.vim/
     ```
 
 # For Windows User
@@ -32,5 +32,5 @@ command line enabled.
 - Configuration
 
     ```
-    svn export https://github.com/ikey4u/quick-guide/trunk/quick-vim-setup/ %USERPROFILE%\vimfiles
+    svn export github.com/ikey4u/q/trunk/qvim/ %USERPROFILE%\vimfiles
     ```
