@@ -10,10 +10,10 @@ Linux:
     sudo apt-get install xsel subversion git
 ```
 
-# 安装
+# 配置 tmux
 
 
-- 安装脚本
+- 下载配置文件
 
 ```
 svn export https://www.github.com/ikey4u/q/trunk/qtmux/.tmux ~/.tmux
@@ -47,8 +47,6 @@ tar xf tmux-2.7.tar.gz && cd tmux-2.7
 ./configure && make
 sudo make install
 
-cd -
-rm -fr /tmp/tmux-2.7
-
+cd - && rm -fr /tmp/tmux-2.7 /tmp/tmux-2.7.tar.gz
 exec $SHELL
 ```
