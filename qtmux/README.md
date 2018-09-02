@@ -3,14 +3,19 @@
     ```
     MacOS:
 
-        brew install reattach-to-user-namespace
+        brew install reattach-to-user-namespace subversion git
 
     Linux:
 
-        sudo apt-get install xsel
+        sudo apt-get install xsel subversion git
     ```
 
 # 安装
 
-    svn export github.com/ikey4u/q/trunk/qtmux ~/.tmux
-    ln -s ~/.tmux/tmuxrc ~/.tmux.conf
+- 安装脚本
+
+    wget -O - github.com/ikey4u/q/master/qtmux/i | bash
+
+- 进入 tmux 安装插件
+
+    <prefix> + I
