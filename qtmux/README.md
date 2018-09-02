@@ -15,7 +15,7 @@ Linux:
 - 安装脚本
 
 ```
-    wget -O - github.com/ikey4u/q/master/qtmux/i | bash
+    wget -O - https://raw.githubusercontent.com/ikey4u/q/master/qtmux/i | bash
 ```
 
 - 进入 tmux 安装插件
