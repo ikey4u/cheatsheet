@@ -1,21 +1,25 @@
 # 安装依赖
 
-    ```
-    MacOS:
+```
+MacOS:
 
-        brew install reattach-to-user-namespace subversion git
+    brew install reattach-to-user-namespace subversion git
 
-    Linux:
+Linux:
 
-        sudo apt-get install xsel subversion git
-    ```
+    sudo apt-get install xsel subversion git
+```
 
 # 安装
 
 - 安装脚本
 
+```
     wget -O - github.com/ikey4u/q/master/qtmux/i | bash
+```
 
 - 进入 tmux 安装插件
 
+```
     <prefix> + I
+```
