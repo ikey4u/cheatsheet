@@ -17,9 +17,19 @@
 
 - Configuration
 
-    ```
-    svn checkout github.com/ikey4u/q/trunk/qvim/ ~/.vim/
-    ```
+    - vimrc
+
+        ```
+        svn checkout github.com/ikey4u/q/trunk/qvim/ ~/.vim/
+        ```
+
+    - font
+
+        ```
+        git clone --depth 1 --branch release https://github.com/adobe-fonts/source-code-pro.git ~/.fonts/adobe-fonts/source-code-pro
+        fc-cache -f -v ~/.fonts/adobe-fonts/source-code-pro
+        ```
+
 
 # For Windows User
 
