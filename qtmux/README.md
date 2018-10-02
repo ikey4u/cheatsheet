@@ -16,7 +16,7 @@ Linux:
 - 下载配置文件
 
 ```
-svn export https://www.github.com/ikey4u/q/trunk/qtmux/.tmux ~/.tmux
+svn checkout https://www.github.com/ikey4u/q/trunk/qtmux/.tmux ~/.tmux
 ln -s ~/.tmux/tmuxrc ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
