@@ -1,9 +1,0 @@
-if has("win32")
-    " [windows] Configureation without any external dependencies
-    source $HOME/vimfiles/settings/basic.vim
-    source $HOME/vimfiles/settings/basicx.vim
-else
-    " [*nix] Configureation without any external dependencies
-    source $HOME/.vim/settings/basic.vim
-    source $HOME/.vim/settings/basicx.vim
-endif

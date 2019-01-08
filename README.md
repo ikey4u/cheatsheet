@@ -1,18 +1,6 @@
-# Some quick guides, tips or configuration
+# Cheatsheet
 
-## ★★★★★
-
-| | Windows | Linux | MacOS |
-|-|-|-|-|
-|XEditor| gvim | gvim | macvim |
-|Browser| chrome | chrome | chrome |
-|Launcher|  | synapse | spotlight|
-|Terminal| cmder | tmux | iterm2 + tmux|
-|Dict| goldendict | goldendict | goldendict|
-|VM| virtualbox| virtualbox | virtualbox|
-
-## ★★★★
-
-| | Windows | Linux | MacOS |
-|-|-|-|-|
-|Editor| sublime | sublime | sublime |
+- download.md : Commands to download files.
+- hugo-guide/ : How to build a static site quickly
+- maldb.md : Malware database
+- wingit/ : How to install git in windows
