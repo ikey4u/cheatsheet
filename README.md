@@ -1,6 +1,6 @@
 # Cheatsheet
 
-- download.md : Commands to download files.
-- hugo-guide/ : How to build a static site quickly
+- ./msvc.txt [Microsoft Visual C++ 工具链安装](http://ahageek.com/writer/special/msvc/)
+
 - maldb.md : Malware database
-- wingit/ : How to install git in windows
+
