@@ -1,0 +1,22 @@
+---
+Title: BaiduPCS 网盘下载工具
+Date: 2019-03-03
+Author: bugnofree
+---
+
+如果出现 403 错误, 可以参考一下解决方法 @[https://github.com/iikira/BaiduPCS-Go/issues/460]
+
+    用已登录百度账号的浏览器访问下面的网址
+    http://pcs.baidu.com/rest/2.0/pcs/file?app_id=265486&method=list&path=%2F
+    网页显示
+
+    {"error_code":31064,"error_msg":"file is not authorized","request_id":***************}
+    不出意外的话，现在网盘里/我的应用数据/ 目录下已经出现了baidu_shurufa，把需要下载的文件/文件夹移动到这个目录。
+    使用BaiduPCS-Go 下载
+
+    cd /apps/baidu_shurufa
+    config set -appid=265486
+    ls
+    此时应该会返回你已经移动过去的文件列表，按正常方式开始下载即可满速。
+
+    理论上把265486换成任何一个可用的appid都可以
