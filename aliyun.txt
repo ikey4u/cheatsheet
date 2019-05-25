@@ -1,0 +1,55 @@
+---
+Title: 阿里云轻服务器
+Date: 2019-05-25
+Author: bugnofree
+---
+
+# 安装纯净版本镜像
+
+脚本我备份了一份, 本目录下面的 InstallNET.sh
+
+- CentOS 6.9 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -c 6.9 -v 64 -a
+
+- Debian 8 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 8 -v 64 -a
+
+- Debian 9 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a
+
+- Ubuntu 12.04 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 12.04 -v 64 -a
+
+- Ubuntu 14.04 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 14.04 -v 64 -a
+
+- Ubuntu 16.04 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 16.04 -v 64 -a
+
+- Ubuntu 18.04 64位
+
+        bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 18.04 -v 64 -a
+
+
+安装过程等待约 30-40 分钟, 然后重新用 ssh 远程登陆即可, 用户名为 root 密码为 MoeClub.org.
+
+安装完成后请立即修改密码.
+
+安装后登陆上去禁用账户服务
+
+    sudo systemctl stop accounts-daemon.service
+    sudo systemctl disable accounts-daemon.service
+
+然后重启服务器
+
+    sudo reboot
+
+# 参考
+
+- [ Linux VPS ] Debian/Ubuntu/CentOS 网络安装/网络重装/纯净安装 一键脚本 @[https://moeclub.org/2018/04/03/603/]
