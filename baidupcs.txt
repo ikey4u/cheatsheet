@@ -23,3 +23,12 @@ Author: bugnofree
 
     值得注意的是, 265486 这个 appid 只能访问 baidu_shurufa 这个文件夹,
     对于其他文件夹的访问, 需要换回 310646
+
+如果出现 31045 错误, 只需要更改一下 useragent 即可, 具体方法如下
+
+- 登陆网页版本百度云, 查看 Network 面板, 随便找一个 header里面的 useragent 值
+- 进入 baidupcs, 然后输入如下命令
+
+        config set -user_agent 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36'
+    
+    设置 useragent, 再重新登陆即可.
